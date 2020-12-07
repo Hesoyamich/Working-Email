@@ -13,7 +13,7 @@ def MainPage(request):
             name, #Имя пользователя
             text, #Текст сообщения
             email, #Почта пользователя
-            ['lolworm952@gmail.com'], #Почта, на которую придёт сообщение
+            [''], #Почта, на которую придёт сообщение
         )
 
         return render(request, 'main/index.html', {'name' : name})
